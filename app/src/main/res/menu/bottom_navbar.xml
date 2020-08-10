@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navSessions"
+        android:icon="@drawable/nav_sessions"
+        android:title="Sessions" />
+
+    <item
+        android:id="@+id/navTrack"
+        android:icon="@drawable/nav_new_session"
+        android:title="Track" />
+
+<!--    <item-->
+<!--        android:id="@+id/navProfile"-->
+<!--        android:icon="@drawable/nav_profile"-->
+<!--        android:title="Profile" />-->
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/boxId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/sessionName"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_weight="8"
+        android:gravity="center_vertical"
+        android:text="Session Name"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/sessionDateTime"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="right"
+        android:layout_gravity="center"
+        android:text="2020-01-12 00:00:00"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
